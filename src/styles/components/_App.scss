@@ -1,0 +1,35 @@
+.App {
+  font-size: 12px;
+
+  @include desktop {
+    font-size: 18px;
+  }
+}
+
+.game-container {
+  background-color: seagreen;
+  color: #FFF;
+  padding: 2rem 0;
+
+  @include desktop {
+    padding: 5rem;
+  }
+
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+
+    @include desktop {
+      font-size: 6rem;
+    }
+  }
+  .sub-header {
+    margin-top: 0;
+    color: rgba(255, 255, 255, .8);
+    font-size: 1.5rem;
+
+    @include desktop {
+      font-size: 3rem;
+    }
+  }
+}

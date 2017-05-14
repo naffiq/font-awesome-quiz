@@ -1,0 +1,42 @@
+.App {
+  font-size: 12px; }
+  @media (min-width: 1024px) {
+    .App {
+      font-size: 18px; } }
+
+.game-container {
+  background-color: seagreen;
+  color: #FFF;
+  padding: 2rem 0; }
+  @media (min-width: 1024px) {
+    .game-container {
+      padding: 5rem; } }
+  .game-container h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem; }
+    @media (min-width: 1024px) {
+      .game-container h1 {
+        font-size: 6rem; } }
+  .game-container .sub-header {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem; }
+    @media (min-width: 1024px) {
+      .game-container .sub-header {
+        font-size: 3rem; } }
+
+.icon {
+  text-align: center; }
+  .icon h1 {
+    font-size: 15rem; }
+
+.Game-stats h3 {
+  font-size: 2rem; }
+
+.Footer {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #999; }
+  @media (min-width: 1024px) {
+    .Footer {
+      font-size: 1.5rem; } }
