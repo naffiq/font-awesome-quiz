@@ -69,6 +69,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <div id="fb-root"></div>
         <div className="game-container">
           <div className="container">
             <div className="row">
@@ -89,6 +90,20 @@ class App extends Component {
 
         <div className="container">
           <div className="Footer">
+            <div className="pull-right">
+              <div className="fb-share-button"
+                data-href="https://fa-quiz.naffiq.com/"
+                data-layout="button_count">
+              </div>
+              &nbsp;
+              <iframe
+                src="https://ghbtns.com/github-btn.html?user=naffiq&repo=font-awesome-quiz&type=star&count=true"
+                scrolling="0"
+                width="170px"
+                className="github-btn"
+              />
+            </div>
+
             Created by <a href="https://naffiq.com" target="_blank" ref="nofollow">
               naffiq
             </a>. Powered by React.

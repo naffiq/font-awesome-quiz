@@ -40,3 +40,9 @@
   @media (min-width: 1024px) {
     .Footer {
       font-size: 1.5rem; } }
+  .Footer iframe {
+    border: none; }
+    .Footer iframe.github-btn {
+      position: relative;
+      top: 6px;
+      height: 20px; }

@@ -6,4 +6,14 @@
   @include desktop {
     font-size: 1.5rem;
   }
+
+  iframe {
+    border: none;
+
+    &.github-btn {
+      position: relative;
+      top: 6px;
+      height: 20px;
+    }
+  }
 }

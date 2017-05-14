@@ -8,7 +8,7 @@
     <meta name="twitter:site" content="@naffiq" />
     <meta name="twitter:creator" content="@naffiq" />
 
-    <meta property="og:url"           content="http://fa-quiz.naffiq.com" />
+    <meta property="og:url"           content="https://fa-quiz.naffiq.com" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="What's that icon?" />
     <meta property="og:description"   content="Check your FontAwesome skills by taking this simple Quiz!" />
@@ -57,5 +57,13 @@
       To begin the development, run `npm start`.
       To create a production bundle, use `npm run build`.
     -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
