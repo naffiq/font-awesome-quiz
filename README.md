@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [![Build Status](https://travis-ci.org/naffiq/font-awesome-quiz.svg?branch=master)](https://travis-ci.org/naffiq/font-awesome-quiz)
 
-![What's that icon's class](https://fa-quiz.naffiq.com/images/share-image.png)
+![What's that icon's class](http://store.naffiq.com/fa-quiz.png)
 ## What's that icon's class?
 
 Check your Font Awesome skills by taking this simple Quiz.
